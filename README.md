@@ -8,5 +8,6 @@ The program contains a very crude text-based interface, where commands are selec
 and numerical value inputs are interpreted as floats. There is no protection against invalid inputs implemented.
 
 main.py contains all the simulation functions and text interface
+
 properties.py stores hard-coded parameters of the spacecraft, reaction wheels and thrusters required for the simulation
 
