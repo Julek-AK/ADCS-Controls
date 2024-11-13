@@ -11,9 +11,9 @@ def componentwise_cross(first, second):
 
 
 """Spacecraft Properties"""
-Ixx, Iyy, Izz = 517, 283, 329  # TODO GIVE THE CORRECT INERTIAS
+Ixx, Iyy, Izz = 360, 282, 311  # kgm^2
 sc_inertia = np.diag([Ixx, Iyy, Izz])  # kgm^2
-sc_mass = 1661  # kg TODO GIVE THE CORRECT MASS
+sc_mass = 1661  # kg
 
 """RCS Properties"""
 rcs_thrust_max = 12.5  # N
